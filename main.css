@@ -7,6 +7,10 @@ body {
 	font-family: 'Helvetica Neue', Avenir, sans-serif;
 }
 
+a:visited, a:link {
+	color: inherit;
+}
+
 /* 
 	index.html 
 					*/
@@ -57,10 +61,9 @@ body {
 .card {
 	height: 120px;
 	width: 250px;
-	margin: 30px 0px 0px 20px;
+	margin: 30px 0px 0px 23px;
 	display: inline-block;
 	text-shadow: -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF;
-	/*border: 2px solid black;*/
 	border-radius: 10px;
 }
 
@@ -72,10 +75,6 @@ body {
 .yellow {
 	background-color: Gold;
 	opacity: 0.8;
-}
-
-#cancel {
-	margin-left: 110px;
 }
 
 .distance-text {
@@ -98,6 +97,45 @@ body {
 
 .nav-text {
 	color: black;
+	font-weight: bold;
 	display: inline-block;
 	margin: 45px 0px 0px 15px;
+}
+
+#cancel {
+	margin-left: 100px;
+}
+
+/* 
+	Phone call screens
+					*/
+
+#call-screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+	background-image: url("images/call-screen.jpg");
+	background-size: 300px 530px;
+}
+
+.call-tag {
+	height: 65px;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	margin-top: 30px;
+	background-color: #232323;
+}
+
+.caller-id {
+	margin-top: 25px;
+	color: #B4B4B4;
+	font-size: 175%;
+}
+
+.hang-up {
+	height: 65px;
+	width: 66px;
+	margin: 312px auto;
+	border-radius: 50px;
 }
