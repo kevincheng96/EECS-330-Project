@@ -260,7 +260,7 @@ a:visited, a:link {
 	background-size: 300px 530px;
 }
 
-.call-tag {
+#call-tag {
 	height: 65px;
 	width: 100%;
 	text-align: center;
@@ -269,13 +269,13 @@ a:visited, a:link {
 	background-color: #232323;
 }
 
-.caller-id {
+#caller-id {
 	margin-top: 25px;
 	color: #B4B4B4;
 	font-size: 175%;
 }
 
-.hang-up {
+#hang-up {
 	height: 65px;
 	width: 66px;
 	margin: 312px auto;

@@ -3,16 +3,18 @@
 <head>
 	<title>Live Map</title>
     <link rel="stylesheet" type="text/css" href="main.css"/>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="main.js"></script>
 </head>
 <body>
 	<div id="map-screen">
-		<div id="police-station-icon">
+		<div id="police-station-icon" class="save-history">
 			<a href="call-police.html">
 				<img src="images/police-station-icon.png">
 			</a>
 		</div>
 		<div id="hospital-icon">
-			<a href="call-hospital.html">
+			<a href="call-hospital.html" class="save-history">
 				<img src="images/hospital-icon.png">
 			</a>
 		</div>
@@ -24,7 +26,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="cards.html">
+			<a href="cards.html" class="save-history">
 				<div id="half-bar">
 					<div id="phone-icon">
 						<img id="phone-icon" src="images/phone-icon.png">
