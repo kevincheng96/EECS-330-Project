@@ -9,6 +9,7 @@ body {
 
 a:visited, a:link {
 	color: inherit;
+	text-decoration: none;
 }
 
 /* 
@@ -46,6 +47,143 @@ a:visited, a:link {
 	margin-bottom: 0px;
 	margin-top: 10px;
 }
+
+/*home-page.html*/
+
+#home-screen {
+	height: 530px;
+	width: 300px;
+	margin: 97px 23px;
+	background-color: #ffe6b3;
+	display: inline-block;
+}
+
+#home-head-bar {
+	height: 50px;
+	width: 278px;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ee2b2b;
+	color: white;
+	border-radius: 5px;
+}
+
+.head-bar-text {
+	margin-top: 8px;
+}
+
+#home-button-wrapper {
+	height: 469px;
+	width: 300px;
+	margin-top: 0px;
+}
+
+#live-map-button {
+	height: 140px;
+	width: 260px;
+	background-size: 260px 146px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 140px;
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+	opacity: .80;
+	background-image: url("images/map-button.jpg")
+}
+
+
+#alerts-button {
+	height: 140px;
+	width: 260px;
+	background-size: 260px 146px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 140px;
+	font-size: 40px;
+	font-weight: bold;
+	opacity: .80;
+	background-color: #ff1a1a;
+}
+
+#call-button {
+	height: 140px;
+	width: 260px;
+	background-size: 260px 146px;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 140px;
+	font-size: 40px;
+	font-weight: bold;
+	opacity: .80;
+	background-color: #009933;
+}
+
+/*live-map.html*/
+
+#map-screen {
+	height: 530px;
+	width: 300px;
+	margin: 97px 23px;
+	background-size: 300px 530px;
+	background-image: url("images/live-map-background.png");
+}
+
+#police-station-icon img {
+	height: 25px;
+	width: 25px;
+	margin-left: 167px;
+	margin-top: 108px
+}
+
+#hospital-icon img {
+	height: 30px;
+	width: 30px;
+	margin-left: 34px;
+	margin-top: 39px;
+}
+
+#back-button img {
+	height: 35px;
+	width: 35px;
+	margin-top: 5px;
+	margin-left: 50px;
+	float: left;
+}
+
+#phone-icon img {
+	height: 30px;
+	width: 30px;
+	margin-top: 7px;
+	margin-left: 57px;
+	float: left;
+}
+
+#half-bar {
+	width: 142px;
+	height: 45px;
+	float: left;
+	text-align: center;
+	border: 1px solid black;
+}
+
+#map-bottom-bar {
+	width: 288px;
+	height: 45px;
+	margin-top: 264px;
+	margin-left: 6px; 
+	background-color: white;
+	text-align: center;
+}
+
 
 /* 
 	cards.html 
@@ -138,4 +276,22 @@ a:visited, a:link {
 	width: 66px;
 	margin: 312px auto;
 	border-radius: 50px;
+}
+
+/* 
+	News Alerts
+					*/
+
+.alert-row {
+	height: 96;
+	width: 100%;
+	border-bottom: 1px solid grey;
+}
+
+#news-bottom-bar {
+	width: 288px;
+	height: 45px;
+	margin-left: 6px; 
+	background-color: #FFE6B3;
+	text-align: center;
 }
