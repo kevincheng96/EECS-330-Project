@@ -91,13 +91,19 @@ a:visited, a:link {
 	margin-left: 20px;
 	margin-top: 10px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 2px #161515;
 	text-align: center;
 	line-height: 140px;
-	color: black;
 	font-size: 40px;
 	font-weight: bold;
 	opacity: .80;
-	background-image: url("images/map-button.jpg")
+	background-image: url("images/map-button.jpg");
+	color: white;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 }
 
 
@@ -108,12 +114,14 @@ a:visited, a:link {
 	margin-left: 20px;
 	margin-top: 10px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 2px #161515;
 	text-align: center;
 	line-height: 140px;
 	font-size: 40px;
 	font-weight: bold;
 	opacity: .80;
 	background-color: #ff1a1a;
+	color: white;
 }
 
 #call-button {
@@ -123,12 +131,14 @@ a:visited, a:link {
 	margin-left: 20px;
 	margin-top: 10px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 2px #161515;
 	text-align: center;
 	line-height: 140px;
 	font-size: 40px;
 	font-weight: bold;
 	opacity: .80;
 	background-color: #009933;
+	color: white;
 }
 
 /*live-map.html*/
@@ -196,8 +206,9 @@ a:visited, a:link {
 #screen {
 	height: 530px;
 	width: 300px;
-	margin: 105px 23px;
+	margin: 97px 23px;
 	background-color: DimGray; /*#FFE6B3; */
+	display: inline-block;
 }
 
 .card {
@@ -206,7 +217,9 @@ a:visited, a:link {
 	margin: 20px 0px 0px 23px; /*30px*/
 	display: inline-block;
 	text-shadow: -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF;
+	color: white;
 	border-radius: 10px;
+	box-shadow: 5px 5px 2px #161515;
 }
 
 .green {
@@ -214,13 +227,13 @@ a:visited, a:link {
 	opacity: 0.8;
 }
 
-.yellow {
-	background-color: #FFDE2F;
+.red {
+	background-color: #ff1a1a;
 	opacity: 0.8;
 }
 
 .blue {
-	background-color: aqua;
+	background-color: #0039e6;
 	opacity: 0.8;
 }
 
@@ -235,6 +248,7 @@ a:visited, a:link {
 	font-weight: bold;
 	text-shadow: -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF -1px -1px 0 #FFFFFF;
 	text-align: center;
+	color: white;
 }
 
 .ETA-text {
@@ -243,21 +257,25 @@ a:visited, a:link {
 }
 
 .nav-text {
-	color: black;
+	color: white;
 	font-weight: bold;
 	display: inline-block;
 	margin: 30px 0px 0px 15px;
 }
 
 .nav-text2 {
-	color: black;
+	color: white;
 	font-weight: bold;
 	display: inline-block;
-	margin: 30px 24px 0px 15px;
 }
 
 #cancel {
 	margin-left: 100px;
+}
+
+#cancel2 {
+	margin-left: 220px;
+	margin-top: 13px;
 }
 
 /* 
@@ -309,18 +327,19 @@ a:visited, a:link {
 	width: 288px;
 	height: 45px;
 	margin-left: 6px; 
-	background-color: #FFE6B3;
+	background-color: white;
 	text-align: center;
 }
 
 .news-date {
-	color: black;
+	color: white;
 	margin: 8px 0px 10px 8px;
 	font-weight: normal;
 	font-size: 85%;
 }
 
 .news-text {
+	color: white;
 	font-weight: bold;
 	margin-top: 0px;
 	margin-left: 8px;
@@ -329,33 +348,33 @@ a:visited, a:link {
 /* morecontacts.html */
 
 .contacts-wrapper {
-
-	border: 1px solid black;
-	background-color: black;
-	margin: 25px 40px 0 0;
+	height: 27px;
+	background-color: #9494b8;
+	margin-left: 25px;
+	margin-right: 25px;
 	color: white;
 	border-radius: 25px;
 	text-align: center;
-	list-style: none;
-
 }
 
-.top-contacts-wrapper {
-
-	margin-top: -35px;
-}
-
-.bottom-contacts-wrapper {
-	border: 1px solid black;
-	background-color: black;
-	margin: 25px 40px -22px 0;
-	color: white;
-	border-radius: 25px;
+#contacts-title-bar {
+	height: 50px;
+	width: 278px;
+	margin-left: 10px;
+	margin-top: -30px;
 	text-align: center;
-	list-style: none;
+	line-height: 50px;
+	background-color: #666699;
+	color: white;
+	border-radius: 5px;
+}
+
+.contacts-text {
+	line-height: 28px;
 }
 
 .contacts-title{
+	color: white;
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
