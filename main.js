@@ -8,7 +8,7 @@ $(document).ready(function() {
 	});
 
 	// When clicking cancel or hang up button, take user back to previous page
-	$('#cancel, #hang-up').click(function(e) {
+	$('#cancel, #hang-up, #cancel2').click(function(e) {
 		if ('prevPage' in  sessionStorage) {
 			e.preventDefault();
 			var prevPage = sessionStorage.getItem('prevPage');
